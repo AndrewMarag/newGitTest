@@ -1,0 +1,25 @@
+
+n=20
+prime_number=2
+counter=1
+x=2
+check=0
+while(counter<n):
+
+    while (x<prime_number):
+         result=prime_number/x
+         x = x + 1
+         if (result % 1 == 0):
+              check = 1
+
+
+
+
+    if(check==0):
+     print(prime_number)
+     counter = counter + 1
+
+
+    x=2
+    check=0
+    prime_number = prime_number + 1
